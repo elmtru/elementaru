@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Janosh Riebesell" />
+    <meta name="description" content="Interactive periodic table of elements" />
+
+    <meta name="og:card" content="summary" />
+    <meta name="twitter:site" content="@jrib_" />
+    <meta name="twitter:creator" content="@jrib_" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/janosh/elementari/main/static/2022-07-12-screenshot.png"
+    />
+    <meta property="og:image:alt" content="Interactive Periodic Table" />
+
+    <script
+      defer
+      data-domain="elementari.janosh.dev"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+
+    <link rel="icon" href="favicon.svg" />
+    <link rel="stylesheet" href="prism-vsc-dark-plus.css" />
+    <!-- math display -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"
+    />
+
+    
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CAwrdmGJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BBvK4t0Z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DSZzDcX6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.PMJqI94-.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.B81eeleu.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.D6kgxu3v.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.Ck97c3H1.js">
+  </head>
+
+  <body data-sveltekit-prefetch>
+    <div>
+			<script>
+				{
+					__sveltekit_1dc47ui = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CAwrdmGJ.js"),
+						import("./_app/immutable/entry/app.B81eeleu.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>
